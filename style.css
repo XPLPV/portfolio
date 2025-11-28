@@ -40,13 +40,7 @@ a {
 a:hover {
   color: #888888; /* цвет при наведении, можно подобрать яркий */
 }
-.container {
-  width: 1024px;      /* фиксированная ширина холста */
-  margin: 0 auto;      /* центрируем по горизонтали */
-  box-sizing: border-box;
-  transform: scale(1.37); /* 140% */
-  transform-origin: top left; /* чтобы масштаб был от левого верхнего угла */
-}
+
 .floor {
   width: 100%;
   display: flex;
@@ -218,4 +212,5 @@ a:hover {
   height: 24px;
 
 }
+
 
