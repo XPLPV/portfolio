@@ -5,7 +5,7 @@ body {
   width: 1024px;   /* не больше твоего дизайна */        /* подстраивается под экран */
   margin: 0;       /* центрируем на больших экранах */
   padding: 40px;
-  transform: scale(1.37); /* 140% */
+  transform: scale(1.47); /* 140% */
   transform-origin: top left; /* чтобы масштаб был от левого верхнего угла */
 }
 
@@ -214,4 +214,5 @@ a:hover {
 .contacts img {
   width: 24px;
   height: 24px;
+
 }
