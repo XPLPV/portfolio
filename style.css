@@ -2,10 +2,10 @@ body {
   background: #fff;
   font-family: 'Inter', sans-serif;
   color: #000;
-  width: 1024px;   /* не больше твоего дизайна */        /* подстраивается под экран */
-  margin: 0;       /* центрируем на больших экранах */
+  width: 1024px;   /* не больше твоего дизайна */
+  margin: 0;
   padding: 40px;
-  transform: scale(1.47); /* 140% */
+  transform: scale(1.37); /* 140% */
   transform-origin: top left; /* чтобы масштаб был от левого верхнего угла */
 }
 
@@ -44,6 +44,8 @@ a:hover {
   width: 1024px;      /* фиксированная ширина холста */
   margin: 0 auto;      /* центрируем по горизонтали */
   box-sizing: border-box;
+  transform: scale(1.37); /* 140% */
+  transform-origin: top left; /* чтобы масштаб был от левого верхнего угла */
 }
 .floor {
   width: 100%;
@@ -216,3 +218,4 @@ a:hover {
   height: 24px;
 
 }
+
