@@ -195,7 +195,7 @@ a:hover {
   width: 100%;
   display: flex;
   justify-content: flex-end; /* всё справа */
-  padding: 50px 0 50px 0;
+  padding: 30px 0 50px 0;
 }
 
 .contacts {
@@ -216,6 +216,7 @@ a:hover {
   height: 24px;
 
 }
+
 
 
 
