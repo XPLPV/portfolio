@@ -26,9 +26,12 @@ h2{font-weight:400;font-size:clamp(28px,1.25vw + 24px,64px);letter-spacing:0;lin
 .info p{max-width:32ch}
 .top-title h3{grid-column:1/-1;margin:0 0 -1.2em}
 .gallery{display:grid;gap:var(--g)}
-.plarts{grid-template-columns:minmax(0,1.9fr) minmax(0,1fr) minmax(0,1fr)}
-.plarts .a{grid-row:span 2}.plarts .d{grid-column:2/4}
-.plarts img{display:block;width:100%;height:100%;min-width:0;min-height:0;max-width:100%;object-fit:cover}
+.plarts{grid-template-columns:minmax(0,1.9fr) minmax(0,2fr)}
+.plarts .a{position:relative}
+.plarts .a img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.plarts .r{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--g);min-width:0}
+.plarts .r img{display:block;width:100%;height:auto}
+.plarts .r .d{grid-column:1/-1}
 .legends{display:grid;grid-template-columns:1fr 1fr;gap:var(--g)}
 .lcol{display:grid;gap:var(--g);aspect-ratio:577/1262;min-height:0;overflow:hidden}
 .l1{grid-template-rows:702fr 544fr}.l2{grid-template-rows:656fr 578fr}
@@ -54,7 +57,7 @@ footer p{font-size:clamp(19px,.714vw + 12.7px,34px);margin-top:.6em}
  .ecg img{width:500%}
  header{flex-direction:column;gap:22px}
  nav{font-size:16px;gap:20px;padding-top:0}.logo{font-size:52px}
- .intro{font-size:17px}
+ .intro{font-size:17px;text-wrap:pretty}.intro span{display:inline}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
